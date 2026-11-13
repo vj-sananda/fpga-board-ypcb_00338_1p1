@@ -27,6 +27,9 @@ Open Vivado and create a new project. You can then select “YPCB-00338-1P1 Acce
 
 SW1 is the **inner button**, farther from the metal PCIe bracket, circled in cyan below. According to the [board author's guide](https://www.tiferking.cn/index.php/2024/12/19/650/), SW1 connects to the FPGA's `INIT_B` pin; SW2 is a user GPIO button.
 
+Keeping SW1 pressed will prevent the FPGA board from being programmed. Keep it pressed and power cycle the PC, if the PC 
+is not getting past POST and booting. 
+
 ![Labeled board photo showing SW1, the inner button farther from the PCIe bracket, circled in cyan](documents/sw1_identified.png)
 
 ## PCIe Pin Assignments
